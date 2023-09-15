@@ -292,7 +292,7 @@ body {font-family: 'Noto Sans KR', sans-serif;}
     position: relative;
     width: 384px;
     height: 250px;
-    background-color: yellow;
+    background-color: rgb(255, 136, 0);
     overflow: hidden;
 }
 
