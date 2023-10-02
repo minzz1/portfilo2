@@ -57,7 +57,7 @@
   </head>
   <body>
     <!-- nav_wrap -->
-    <div id="nav_wrap">
+    <nav id="nav_wrap">
       <div class="nav">
         <h1>
           <a href="#">
@@ -72,12 +72,12 @@
           <li class="last"><a href="#">CONTACT</a></li>
         </ul>
       </div>
-    </div>
+    </nav>
     <!-- //nav_wrap -->
 
     <!-- section_wrap -->
-    <div id="section_wrap">
-      <div id="section1">
+    <article id="section_wrap">
+      <section id="section1">
         <div class="container1 type-wrap">
           <span class="avatar"><img src="img/porfile.jpg" alt="프로필" /></span>
           <h2>PORTFOLIO</h2>
@@ -86,50 +86,81 @@
           </div>
           <span id="typed" style="white-space: pre"></span>
         </div>
-      </div>
+      </section>
       <!-- //section1 -->
 
       <!-- section1-1 -->
-      <div id="section1-1">
+      <section id="section1-1">
         <div class="container1-1">
           <h3>ABOUT ME</h3>
-          <div class="about_box">
-            <div class="about_box">
+          <div class="about_box1">
+            <p>
+              안녕하세요, <mark> 새로운 배움을 즐기는</mark> 웹 디자이너 & 웹
+              퍼블리셔 이경민 입니다.
+            </p>
+          </div>
+          <div class="about_box2">
+            <div class="about_box_inner">
+              <i class="fa-regular fa-laptop-code"></i>
               <p>
-                안녕하세요, 새로운 배움을 즐기는 웹 디자이너 & 웹 퍼블리셔
-                이경민 입니다.
+                2023.10 <br />
+                영진직업전문학교 K-Digital Training open API를 활용한 스마트
+                웹&앱 콘텐츠실무개발자 양성과정 수료
               </p>
             </div>
-            <div>
-              <p>
-                2023.03 영진직업전문학교 K-digital training open API를 활용한
-                스마트 웹&앱 콘텐츠실무개발자 양성과정 수료
-              </p>
-            </div>
-            <div>
+            <div class="about_box_inner">
               <i class="fa-regular fa-address-card"></i>
               <p>phone : 010-3208-9852</p>
               <p>Email : hohohohohoh52@gmail.com</p>
-              <p>이력서 바로가기</p>
+              <a class="resume" href="img/hohohohohoh.pdf" target="_blank"
+                ><button>이력서 바로가기</button></a
+              >
             </div>
           </div>
-          <h3>Skill</h3>
-          <div class="skill_box">
-            <div>
-              <p>HTML/CSS</p>
-            </div>
-            <div>
-              <p>Javascript</p>
-            </div>
-            <div>
-              <p>Photoshop</p>
+          <div class="about_box3">
+            <h3>Skill</h3>
+            <div class="skill_box">
+              <div>
+                <p>HTML5</p>
+                <progress max="100" value="90"></progress>
+              </div>
+              <div>
+                <p>CSS3</p>
+                <progress max="100" value="90"></progress>
+              </div>
+              <div>
+                <p>Javascript</p>
+                <progress max="100" value="70"></progress>
+              </div>
+              <div>
+                <p>React</p>
+                <progress max="100" value="60"></progress>
+              </div>
+
+              <div>
+                <p>Adobe Photoshop</p>
+                <progress max="100" value="80"></progress>
+              </div>
+              <div>
+                <p>Adobe Illustrator</p>
+                <progress max="100" value="70"></progress>
+              </div>
+              <div>
+                <p>Adobe XD</p>
+                <progress max="100" value="70"></progress>
+              </div>
+              <div>
+                <p>Figma</p>
+                <progress max="100" value="85"></progress>
+              </div>
             </div>
           </div>
         </div>
-      </div>
+        <!-- /container1-1 -->
+      </section>
 
       <!-- section2 -->
-      <div id="section2">
+      <section id="section2">
         <div class="container2">
           <h3>PORTFOLIO</h3>
           <div class="box_wrap">
@@ -147,7 +178,7 @@
               </div>
               <span>영남외대 입시</span>
               <p>OpenAPI & 공공데이터 활용</p>
-              <p>웹표준 홈페이지 리뉴얼(반응형, 서브페이지 퍼블리싱)</p>
+              <p>웹표준 반응형 홈페이지 리뉴얼(디자인, 서브페이지 퍼블리싱)</p>
             </div>
 
             <div class="p_box item" data-aos="fade-up">
@@ -156,7 +187,7 @@
                 <div class="overlay">
                   <a
                     class="info"
-                    href="http://kangsane.dothome.co.kr/web/"
+                    href="http://minzz.pe.kr/portfolio/dongproject"
                     target="_blank"
                     >Site 바로가기</a
                   >
@@ -164,7 +195,7 @@
               </div>
               <span>동성로랑 사이트 제작</span>
               <p>OpenAPI활용 SNS연동 회원관리구현</p>
-              <p>웹표준 반응형 사이트 제작(서브페이지 퍼블리싱)</p>
+              <p>웹표준 반응형 사이트 제작(디자인, 서브페이지 퍼블리싱)</p>
             </div>
 
             <div class="p_box last item" data-aos="fade-up">
@@ -173,7 +204,7 @@
                 <div class="overlay">
                   <a
                     class="info"
-                    href="http://kangsane.dothome.co.kr/responsive/html5/index.html"
+                    href="https://port-9000-randingproject-jvvy2blm5sa5gq.sel5.cloudtype.app/"
                     target="_blank"
                     >Site 바로가기</a
                   >
@@ -181,7 +212,7 @@
               </div>
               <span>Fit Partner 랜딩페이지 제작</span>
               <p>OpenAPI를 활용한 SNS마케팅 자동화</p>
-              <p>웹표준 반응형 사이트 제작(메인 페이지 퍼블리싱)</p>
+              <p>웹표준 반응형 사이트 제작(디자인, 메인페이지 퍼블리싱)</p>
             </div>
 
             <div class="p_box item" data-aos="fade-up">
@@ -190,7 +221,7 @@
                 <div class="overlay">
                   <a
                     class="info"
-                    href="http://kangsane.dothome.co.kr/locknlock/"
+                    href="http://minzz.pe.kr/portfolio/tooniverse/"
                     target="_blank"
                     >Site 바로가기</a
                   >
@@ -225,7 +256,7 @@
           <!-- //box_wrap -->
         </div>
         <!-- //container2 -->
-      </div>
+      </section>
       <!-- //section2 -->
 
       <!-- section3 -->
@@ -242,7 +273,7 @@
         </div>
       </div>
       <!-- //section3 -->
-    </div>
+    </article>
     <!-- //section_wrap -->
 
     <!-- 스크립트 -->
