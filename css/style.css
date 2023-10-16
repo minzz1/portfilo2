@@ -396,14 +396,14 @@ body {
 
 #section2 .box_wrap .p_box span {
   display: block;
-  padding-top: 20px;
+  padding-top: 15px;
   padding-left: 20px;
   font-size: 16px;
   color: #4e4e4e;
 }
 
 #section2 .box_wrap .p_box p {
-  padding-top: 5px;
+  padding-top: 3px;
   padding-left: 20px;
   color: #999;
   font-weight: 300;
