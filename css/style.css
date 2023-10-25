@@ -401,6 +401,17 @@ body {
   font-size: 16px;
   color: #4e4e4e;
 }
+#section2 .box_wrap .p_box span button {
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+  margin-right: 20px;
+  padding: 0 10px;
+  border-radius: 5px;
+}
+#section2 .box_wrap .p_box span button:hover {
+  font-weight: 900;
+}
 #section2 .box_wrap .p_box p {
   padding-top: 3px;
   padding-left: 20px;
